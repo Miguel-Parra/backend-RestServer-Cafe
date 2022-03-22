@@ -45,12 +45,10 @@ const usuarioPut = async (req, res = response) => {
 }
 
 const usuarioDelete = async(req, res = response) => {
-    const { idUsuario } = req.params
-    //Borrado fisicamente 
-    // const usuarioEliminado = await Usuario.findByIdAndDelete(idUsuario)
-
-    const usuarioAModificar = await Usuario.findByIdAndUpdate(idUsuario,{estado: false},{new: true} )
-    res.json({ usuarioAModificar});
+    const { idUsuario } = req.params;
+    const usuarioModificado = await Usuario.findByIdAndUpdate(idUsuario,{estado: false},{new: true} )
+    
+    res.json(usuarioModificado);
 }
 
 const usuarioPatch = (req, res = response) => {
