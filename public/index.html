@@ -39,6 +39,7 @@
                 .then(respJSON => {
                     console.log(respJSON);
                     console.log(respJSON.usuario.correo);
+                    localStorage.setItem('correo', respJSON.usuario.correo)
                 })
                 .catch(console.warn);
 
