@@ -24,11 +24,13 @@
     </button>
     <script>
         function handleCredentialResponse(response) {
-            //obtener el dominio de la url vinculada
-            const url = location.hostname
+            //obtener el dominio vinculado
+            const url = (location.hostname.includes('localhost'))
+            ? 'http://localhost:8080/api/auth/google'
+            : 'https://https://backend-restserver-cafe.herokuapp.com/api/auth/google'
             console.log(url)
             //Google Token : ID_TOKEN
-            fetch('https://backend-restserver-cafe.herokuapp.com/api/auth/google', {
+            fetch(url, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -47,8 +49,6 @@
 
         const button = document.querySelector('#google_signout');
         button.addEventListener('click', () => {
-            const url = location.hostname
-            console.log(url)
             google.accounts.id.disableAutoSelect();
             google.accounts.id.revoke(localStorage.getItem('correo'), () => {
                 localStorage.clear(); // limpia el localStorage
