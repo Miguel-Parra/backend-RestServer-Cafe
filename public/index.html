@@ -41,7 +41,8 @@
                 .then(respJSON => {
                     console.log(respJSON);
                     console.log(respJSON.usuario.correo);
-                    localStorage.setItem('correo', respJSON.usuario.correo)
+                    localStorage.setItem('correo', respJSON.usuario.correo);
+                    location.reload(); //recarga la página
                 })
                 .catch(console.warn);
 
