@@ -46,6 +46,8 @@
 
         const button = document.querySelector('#google_signout');
         button.addEventListener('click', () => {
+            const url = location.hostname
+            console.log(url)
             google.accounts.id.disableAutoSelect();
             google.accounts.id.revoke(localStorage.getItem('correo'), () => {
                 localStorage.clear(); // limpia el localStorage
