@@ -28,7 +28,7 @@
             const url = location.hostname
             console.log(url)
             //Google Token : ID_TOKEN
-            fetch('https://backend-restserver-cafe.herokuapp.com', {
+            fetch('https://backend-restserver-cafe.herokuapp.com/api/auth/google', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
