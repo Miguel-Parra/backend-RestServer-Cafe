@@ -6,8 +6,14 @@ class Server {
     constructor() {
         this.app = express();
         this.port = process.env.PORT;
-        this.usuariosPath = '/api/usuarios';
-        this.authPath = '/api/auth';
+        this.paths = {
+            auth: '/api/auth',
+            buscar: '/api/buscar',
+            categorias: '/api/categorias',
+            productos: '/api/productos',
+            usuarios: '/api/usuarios',
+        }
+
         //Conectar a DB
         this.conectarDB();
         // middleware
@@ -27,15 +33,18 @@ class Server {
     middleware() {
         // Lectura y parseo del body
         this.app.use(express.json());
-        //CORS
+        //CORS para que todos puedan acceder y no les bloquee
         this.app.use(cors())
         //Directorio Público
         this.app.use(express.static('public'));
     }
 
     routes() {
-        this.app.use(this.authPath, require('../routes/auth.route'));
-        this.app.use(this.usuariosPath, require('../routes/usuarios.route'));
+        this.app.use(this.paths.auth, require('../routes/auth.route'));
+        this.app.use(this.paths.buscar, require('../routes/buscar.route'));
+        this.app.use(this.paths.usuarios, require('../routes/usuarios.route'));
+        this.app.use(this.paths.categorias, require('../routes/categorias.route'));
+        this.app.use(this.paths.productos, require('../routes/productos.route'));
     }
 
     listen() {
