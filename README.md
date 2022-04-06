@@ -17,7 +17,7 @@ En este Webserver y API Rest se utilizó lo siguiente:
  ODM que permitió:
   - Conectar la aplicación de Node con la base de datos de MongoDB Atlas.
   - Crear los modelos para la DB.
-  * Realizar inserciones, lecturas, queries, etc. 
+  - Realizar inserciones, lecturas, queries, etc. 
 
    ### **Heroku**
  Plataforma utilizada para desplegar el proyecto. Aquí se configuró las variables de entorno personalizadas que utiliza la aplicación.
@@ -25,7 +25,7 @@ En este Webserver y API Rest se utilizó lo siguiente:
  Paquete que Node que permitió encriptar la contraseña mediante un hash de una sola vía.
  ### **Express-validator**
 
- Paquete que Node que contiene una gran colección de Middlewares utilizados para las validaciones, por ejemplo: si es un Momgo ID, si llega vacío algún campo, hacer validaciones personalizadas, etc.
+ Paquete que Node que contiene una gran colección de Middlewares utilizados para las validaciones, por ejemplo: si es un Mongo ID, si llega vacío algún campo, hacer validaciones personalizadas, etc.
  ### **Dotenv**
  Paquete que Node que permitió crear las variables de entorno utilizadas de manera local en el proyecto. 
  ### **JSON Web Token**
@@ -37,7 +37,7 @@ Servicio de autenticación alternativo utilizado para que el cliente pueda auten
  ### **Express-fileupload**
  Paquete que Node que permitió subir archivos a directorios especificos del servidor.
  ### **Cloudinary**
- Servicio en la nube que junto a su SDK nos permitió almacenar ahí las imagenes enviadas por los clientes. Esta alternativa remplazo a la subida directa de archivos al servidor.
+ Servicio en la nube que junto a su SDK permitió almacenar ahí las imagenes enviadas por los clientes. Esta alternativa remplazo a la subida directa de archivos al servidor.
 
 <br>
 
