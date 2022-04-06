@@ -1,0 +1,89 @@
+[33mcommit 74220f296c570f59f38b5bad47900087756d8b1f[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Miguel-Parra <miguelts644@hotmail.com>
+Date:   Sat Apr 2 19:16:02 2022 -0500
+
+    CRUD Productos, categorias y busqueda
+
+[33mcommit 2b93c393feede0643ab13dd4be20005cf726a469[m[33m ([m[1;31morigin/main[m[33m, [m[1;31mheroku/main[m[33m)[m
+Author: Miguel-Parra <miguelts644@hotmail.com>
+Date:   Wed Mar 23 16:06:26 2022 -0500
+
+    signout funcionando
+
+[33mcommit ad0165f9e6bd73fa25687dda7edcc3939f3f9015[m
+Author: Miguel-Parra <miguelts644@hotmail.com>
+Date:   Wed Mar 23 16:02:15 2022 -0500
+
+    signout funcionando
+
+[33mcommit 9a99105bf8a7cd0b2e481706af2a534a4ad1195c[m
+Author: Miguel-Parra <miguelts644@hotmail.com>
+Date:   Wed Mar 23 15:59:59 2022 -0500
+
+    signout funcionando
+
+[33mcommit 5fe89b262e4c9145c1038b39cab378c64b149af6[m
+Author: Miguel-Parra <miguelts644@hotmail.com>
+Date:   Wed Mar 23 15:48:45 2022 -0500
+
+    prueba en produccion
+
+[33mcommit aa88ee96f2e0e5e31f9a52e3e6887c6b5369ae65[m
+Author: Miguel-Parra <miguelts644@hotmail.com>
+Date:   Wed Mar 23 15:40:42 2022 -0500
+
+    prueba en produccion
+
+[33mcommit 4eab3ffffd302582d5f0647173a00bd4cf66e3f8[m
+Author: Miguel-Parra <miguelts644@hotmail.com>
+Date:   Wed Mar 23 15:37:21 2022 -0500
+
+    prueba en produccion
+
+[33mcommit f16a8ece852acfac7b58140286a3840546ca3cf8[m
+Author: Miguel-Parra <miguelts644@hotmail.com>
+Date:   Wed Mar 23 15:31:47 2022 -0500
+
+    prueba en produccion
+
+[33mcommit b982d71e37150dab1c131db1ffb5fc5c3a5f34e3[m
+Author: Miguel-Parra <miguelts644@hotmail.com>
+Date:   Wed Mar 23 15:27:26 2022 -0500
+
+    cambios html
+
+[33mcommit 78fa5cc1e4f53a769a8bd6ee35d18551d3fef7e3[m
+Author: Miguel-Parra <miguelts644@hotmail.com>
+Date:   Wed Mar 23 15:22:01 2022 -0500
+
+    location.hostname added
+
+[33mcommit 51b604a86779d59e30eb0f4784b2070d2d0b1434[m
+Author: Miguel-Parra <miguelts644@hotmail.com>
+Date:   Wed Mar 23 14:13:32 2022 -0500
+
+    Google Signin added
+
+[33mcommit d570651d1306c23d022c3ac5bf49ee4dd493bf21[m
+Author: Miguel-Parra <miguelts644@hotmail.com>
+Date:   Tue Mar 22 18:01:50 2022 -0500
+
+    JWT implementado
+
+[33mcommit bbe85bb9de9e5cc2c737f488523bd696be255362[m
+Author: Miguel-Parra <miguelts644@hotmail.com>
+Date:   Mon Mar 21 18:34:30 2022 -0500
+
+    example.env added
+
+[33mcommit 744cd2b0c2e556c9b001dc5977eeabbb51618a14[m
+Author: Miguel-Parra <miguelts644@hotmail.com>
+Date:   Mon Mar 21 18:31:02 2022 -0500
+
+    Eliminando variables de entorno
+
+[33mcommit dd5bb6ed564c88632d33c26ad6a70a92697ca58e[m
+Author: Miguel-Parra <miguelts644@hotmail.com>
+Date:   Mon Mar 21 17:58:28 2022 -0500
+
+    usuarios CRUD listo 21-03-2022

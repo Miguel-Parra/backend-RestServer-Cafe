@@ -4,7 +4,7 @@ const { login, googleSignIn } = require('../controllers/auth.controller');
 const { validarCampos } = require('../middlewares/validar-campos');
 
 //crear la instancia
-const router = new Router();
+const router =  Router();
 
 //crear las rutas
 router.post('/login', [

@@ -30,7 +30,7 @@ const existeCategoria = async (idCategoria) => {
             throw new Error(`El id ${idCategoria} no existe`)
         }
 
-    } catch(error) { //No es necesario si es que se utiliza el check con isMongoID()
+    } catch (error) { //No es necesario si es que se utiliza el check con isMongoID()
         throw new Error(`El id no es válido`)
     }
 }
@@ -44,9 +44,18 @@ const existeProducto = async (idProducto) => {
         if (!existeProducto) {
             throw new Error(`El id ${idProducto} no existe`)
         }
-    } catch (error){ //No es necesario si es que se utiliza el check con isMongoID()
+    } catch (error) { //No es necesario si es que se utiliza el check con isMongoID()
         throw new Error(`El id no es válido`)
     }
+}
+/**
+ * Validar colecciones permitidas
+ */
+const coleccionesPermitidas = async (coleccion = '', colecciones = []) => {
+    if (!colecciones.includes(coleccion)) {
+        throw new Error(`La coleccion ${coleccion} no es permitida (${colecciones})`)
+    }
+    return true;
 }
 
 module.exports = {
@@ -54,5 +63,6 @@ module.exports = {
     emailExiste,
     usuarioIDExiste,
     existeCategoria,
-    existeProducto
+    existeProducto,
+    coleccionesPermitidas
 }
