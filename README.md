@@ -5,6 +5,7 @@
 
  <br>
 En este Webserver y API Rest se utilizó lo siguiente:
+
  ### **Express**
  Framework que permitió crear la API y el Webserver. Aqui se implementó:
  - Rutas y controladores
@@ -73,10 +74,4 @@ npm install
 Y para correr la aplicación con:
 ```
 node app.js
-
-
-
-
-
-
-
+```
