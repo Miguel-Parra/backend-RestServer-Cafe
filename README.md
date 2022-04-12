@@ -64,7 +64,8 @@ https://backend-restserver-cafe.herokuapp.com/
 <br>
 
 
-Para probarla pueden hacer uso de **Postman**.
+Para probarla pueden hacer uso de **Postman**, el usuario de prueba es: miguel2@test.com y la contraseña: 123456
+
 
 
 Recuerden reconstruir los módulos de Node con:
